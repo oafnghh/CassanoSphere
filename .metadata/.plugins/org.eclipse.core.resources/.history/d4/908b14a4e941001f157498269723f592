@@ -1,0 +1,17 @@
+package service;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class ConnectionDB {
+	private static Connection con = null;
+	public static Connection getConnection() throws ClassNotFoundException
+	{
+		if(con==null)
+		{
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			DriverManager.getConnection("jdbc:mysql://localhost:3307/CassanoSphera")
+		}
+	}
+	
+}

@@ -1,0 +1,8 @@
+package service;
+
+import java.sql.Connection;
+
+public class ConnectionDB {
+	private static Connection con = null;
+	
+}

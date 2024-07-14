@@ -1,0 +1,12 @@
+package Dao;
+
+import java.sql.Connection;
+
+import com.mysql.cj.xdevapi.PreparableStatement;
+
+public class UserDao {
+	private Connection con;
+	private String query;
+	private PreparableStatement pst;
+	
+}

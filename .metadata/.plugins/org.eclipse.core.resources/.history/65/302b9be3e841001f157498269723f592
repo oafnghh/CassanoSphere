@@ -1,0 +1,14 @@
+package model;
+
+import java.sql.Date;
+
+public class User {
+	private String I_ID;
+	private String T_Role;
+	private String T_Email;
+	private String T_Name;
+	private String T_Password;
+	private String T_Image_01;
+	private String T_Image_02;
+	private Date D_Birthday;
+}

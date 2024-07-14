@@ -1,0 +1,95 @@
+package model;
+
+import java.sql.Date;
+
+public class User {
+	private String I_ID;
+	private String T_Role;
+	private String T_Email;
+	private String T_Name;
+	private String T_Password;
+	private String T_Image_01;
+	private String T_Image_02;
+	private Date D_Birthday;
+	
+	public User() {
+		super();
+	}
+
+	public User(String i_ID, String t_Role, String t_Email, String t_Name, String t_Password, String t_Image_01,
+			String t_Image_02, Date d_Birthday) {
+		I_ID = i_ID;
+		T_Role = t_Role;
+		T_Email = t_Email;
+		T_Name = t_Name;
+		T_Password = t_Password;
+		T_Image_01 = t_Image_01;
+		T_Image_02 = t_Image_02;
+		D_Birthday = d_Birthday;
+	}
+
+	public String getI_ID() {
+		return I_ID;
+	}
+
+	public void setI_ID(String i_ID) {
+		I_ID = i_ID;
+	}
+
+	public String getT_Role() {
+		return T_Role;
+	}
+
+	public void setT_Role(String t_Role) {
+		T_Role = t_Role;
+	}
+
+	public String getT_Email() {
+		return T_Email;
+	}
+
+	public void setT_Email(String t_Email) {
+		T_Email = t_Email;
+	}
+
+	public String getT_Name() {
+		return T_Name;
+	}
+
+	public void setT_Name(String t_Name) {
+		T_Name = t_Name;
+	}
+
+	public String getT_Password() {
+		return T_Password;
+	}
+
+	public void setT_Password(String t_Password) {
+		T_Password = t_Password;
+	}
+
+	public String getT_Image_01() {
+		return T_Image_01;
+	}
+
+	public void setT_Image_01(String t_Image_01) {
+		T_Image_01 = t_Image_01;
+	}
+
+	public String getT_Image_02() {
+		return T_Image_02;
+	}
+
+	public void setT_Image_02(String t_Image_02) {
+		T_Image_02 = t_Image_02;
+	}
+
+	public Date getD_Birthday() {
+		return D_Birthday;
+	}
+
+	public void setD_Birthday(Date d_Birthday) {
+		D_Birthday = d_Birthday;
+	}
+	
+}

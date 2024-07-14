@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<%@include file="www/login/includes/head.jsp"%>
+</head>
+<body>
+
+	<%@ out.print(ConnectionDB.getConnection())
+	<div class="min-h-screen flex items-center justify-center bg-zinc-100">
+		<div
+			class="bg-white shadow-lg rounded-lg overflow-hidden flex w-3/4 max-w-4xl">
+			<div class="w-1/2 p-8">
+				<h1 class="text-4xl font-bold text-black-500 mb-4">CassanoSphere</h1>
+				<p class="text-zinc-500 mb-8">CONNECT-SHARE-FRIENDS</p>
+				<img src="https://www.intotheminds.com/blog/app/uploads/social-media-marketing-smm-banner.jpg"
+					alt="finance illustration" class="w-full" />
+			</div>
+			<div class="w-1/2 p-8 bg-zinc-50">
+				<h2 class="text-4xl font-bold text-red-500 mb-8">LOGIN</h2>
+				<form>
+					<div class="mb-4">
+						<input type="email" placeholder="Email"
+							class="w-full px-4 py-2 border border-zinc-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" />
+					</div>
+					<div class="mb-4">
+						<input type="password" placeholder="Password"
+							class="w-full px-4 py-2 border border-zinc-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" />
+					</div>
+					<div class="mb-4">
+						<button type="submit"
+							class="w-full bg-red-500 text-white py-2 rounded-lg hover:bg-red-600">LOGIN</button>
+					</div>
+					<div class="text-center">
+						<span class="text-zinc-500">Don't have an account? </span> <a
+							href="#" class="text-red-500">SIGNUP</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<%@include file="www/login/includes/footer.jsp"%>
+</body>
+</html>
