@@ -1,0 +1,68 @@
+
+    <div class="flex flex-col w-64 p-4 bg-card text-card-foreground">
+  
+  <div class="flex items-center space-x-3 mb-4">
+    <img class="w-10 h-10 rounded-full" src="https://placehold.co/40x40" alt="User profile picture" />
+    <span class="font-medium">Lê Minh Hoàng</span>
+  </div>
+  
+  <nav class="flex flex-col space-y-2">
+    <a href="#" class="flex items-center space-x-3 text-foreground hover:bg-muted p-2 rounded">
+      <img src="https://placehold.co/24x24?text=👥" alt="Friends icon" />
+      <span>Bạn bè</span>
+    </a>
+    <a href="#" class="flex items-center space-x-3 text-foreground hover:bg-muted p-2 rounded">
+      <img src="https://placehold.co/24x24?text=🕒" alt="Memories icon" />
+      <span>Kỷ niệm</span>
+    </a>
+    <a href="#" class="flex items-center space-x-3 text-foreground hover:bg-muted p-2 rounded">
+      <img src="https://placehold.co/24x24?text=🔖" alt="Saved icon" />
+      <span>Đã lưu</span>
+    </a>
+    <a href="#" class="flex items-center space-x-3 text-foreground hover:bg-muted p-2 rounded">
+      <img src="https://placehold.co/24x24?text=👥" alt="Groups icon" />
+      <span>Nhóm</span>
+    </a>
+    <a href="#" class="flex items-center space-x-3 text-foreground hover:bg-muted p-2 rounded">
+      <img src="https://placehold.co/24x24?text=🏬" alt="Marketplace icon" />
+      <span>Marketplace</span>
+    </a>
+    <a href="#" class="flex items-center space-x-3 text-foreground hover:bg-muted p-2 rounded">
+      <img src="https://placehold.co/24x24?text=⬇️" alt="See more icon" />
+      <span>Xem thêm</span>
+    </a>
+  </nav>
+  
+  <div class="mt-4">
+    <div class="flex justify-between items-center mb-2">
+      <span class="text-muted-foreground">Lối tắt của bạn</span>
+      <a href="#" class="text-primary hover:underline">Chỉnh sửa</a>
+    </div>
+    <nav class="flex flex-col space-y-2">
+      <a href="#" class="flex items-center space-x-3 text-foreground hover:bg-muted p-2 rounded">
+        <img class="w-8 h-8 rounded-full" src="https://placehold.co/32x32" alt="Hand In Hand 3T - Việt Hàn 2024" />
+        <span>Hand In Hand 3T - Việt Hàn 2024</span>
+      </a>
+      <a href="#" class="flex items-center space-x-3 text-foreground hover:bg-muted p-2 rounded">
+        <img class="w-8 h-8 rounded-full" src="https://placehold.co/32x32" alt="TTTT-2024" />
+        <span>TTTT-2024</span>
+      </a>
+      <a href="#" class="flex items-center space-x-3 text-foreground hover:bg-muted p-2 rounded">
+        <img class="w-8 h-8 rounded-full" src="https://placehold.co/32x32" alt="Kaito kid" />
+        <span>Kaito kid</span>
+      </a>
+      <a href="#" class="flex items-center space-x-3 text-foreground hover:bg-muted p-2 rounded">
+        <img class="w-8 h-8 rounded-full" src="https://placehold.co/32x32" alt="Tuyển Sinh VKU - Trường Đại học CNTT và Truyền thông Việt - Hàn, ĐH Đà Nẵng" />
+        <span>Tuyển Sinh VKU - Trường Đại học CNTT và Truyền thông Việt - Hàn, ĐH Đà Nẵng</span>
+      </a>
+      <a href="#" class="flex items-center space-x-3 text-foreground hover:bg-muted p-2 rounded">
+        <img class="w-8 h-8 rounded-full" src="https://placehold.co/32x32" alt="Worlds FRVR" />
+        <span>Worlds FRVR</span>
+      </a>
+      <a href="#" class="flex items-center space-x-3 text-foreground hover:bg-muted p-2 rounded">
+        <img class="w-8 h-8 rounded-full" src="https://placehold.co/32x32" alt="See more" />
+        <span>Xem thêm</span>
+      </a>
+    </nav>
+  </div>
+</div>

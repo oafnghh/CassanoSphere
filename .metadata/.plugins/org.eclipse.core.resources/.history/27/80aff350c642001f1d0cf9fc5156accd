@@ -1,0 +1,27 @@
+
+<div class="flex flex-col w-64 p-4 bg-card text-card-foreground">
+
+	<a href="">
+		<div class="flex items-center space-x-3 mb-4">
+			<img class="w-10 h-10 rounded-full" src="https://placehold.co/40x40"
+				alt="User profile picture" />
+			<c:if test="${not empty ACC}">
+				<p href='<c:url/>'
+					class="flex-c-m trans-04 p-lr-25"> Wellcome, ${ACC.NAMEE} </a>
+			</c:if>
+		</div>
+	</a>
+
+	<nav class="flex flex-col space-y-2">
+		<a href="#"
+			class="flex items-center space-x-3 text-foreground hover:bg-muted p-2 rounded">
+			<img src="https://placehold.co/24x24?text=👥" alt="Friends icon" />
+			<span>Friends</span>
+		</a> <a href="#"
+			class="flex items-center space-x-3 text-foreground hover:bg-muted p-2 rounded">
+			<img src="https://placehold.co/24x24?text=👥" alt="Messenger icon" />
+			<span>Messenger</span>
+		</a>
+	</nav>
+
+</div>

@@ -1,5 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1" import="service.ConnectionDB"%>
+	<%@ page import="service.ConnectionDB"%>
+<%@ page import="model.*"%>
+<% User auth = (User) request.getSession().getAttribute("auth");
+	if(auth!=null)
+	{
+		response.sendRedirect("home.jsp");
+	}
+%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,13 +30,13 @@
 			</div>
 			<div class="w-1/2 p-8 bg-zinc-50">
 				<h2 class="text-4xl font-bold text-red-500 mb-8">LOGIN</h2>
-				<form>
+				<form action="user-login" method="post">
 					<div class="mb-4">
-						<input type="email" placeholder="Email"
+						<input name="email" type="email" placeholder="Email"
 							class="w-full px-4 py-2 border border-zinc-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" />
 					</div>
 					<div class="mb-4">
-						<input type="password" placeholder="Password"
+						<input name="password" type="password" placeholder="Password"
 							class="w-full px-4 py-2 border border-zinc-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" />
 					</div>
 					<div class="mb-4">

@@ -1,0 +1,28 @@
+<div class="flex items-center justify-between bg-white dark:bg-zinc-800 p-2 shadow-md">
+  <div class="flex items-center space-x-4">
+    <img src="https://placehold.co/40x40" alt="Facebook logo" class="rounded-full" />
+    <div class="flex items-center bg-zinc-100 dark:bg-zinc-700 rounded-full px-3 py-1">
+      <img src="https://placehold.co/20x20?text=🔍" alt="Search icon" class="mr-2" />
+      <input class="text-zinc-500 dark:text-zinc-300">>
+    </div>
+  </div>
+
+  <div class="flex items-center space-x-6">
+    <div class="relative">
+      <img src="https://placehold.co/24x24?text=🏠" alt="Home icon" class="text-blue-600" />
+      <div class="absolute bottom-0 left-0 right-0 h-1 bg-blue-600"></div>
+    </div>
+    <img src="https://placehold.co/24x24?text=👥" alt="Friends icon" class="text-zinc-500 dark:text-zinc-300" />
+    <img src="https://placehold.co/24x24?text=🏪" alt="Marketplace icon" class="text-zinc-500 dark:text-zinc-300" />
+    <img src="https://placehold.co/24x24?text=👤" alt="Groups icon" class="text-zinc-500 dark:text-zinc-300" />
+    <img src="https://placehold.co/24x24?text=🎮" alt="Gaming icon" class="text-zinc-500 dark:text-zinc-300" />
+  </div>
+
+  <div class="flex items-center space-x-4">
+    <img src="https://placehold.co/24x24?text=🔲" alt="Menu icon" class="bg-zinc-300 dark:bg-zinc-600 rounded-full p-1" />
+    <img src="https://placehold.co/24x24?text=⚡" alt="Messenger icon" class="bg-zinc-300 dark:bg-zinc-600 rounded-full p-1" />
+    <img src="https://placehold.co/24x24?text=🔔" alt="Notifications icon" class="bg-zinc-300 dark:bg-zinc-600 rounded-full p-1" />
+    <img src="https://placehold.co/24x24?text=👤" alt="Profile icon" class="bg-zinc-300 dark:bg-zinc-600 rounded-full p-1" />
+    <img src="https://placehold.co/24x24?text=⬇️" alt="Dropdown icon" class="bg-zinc-300 dark:bg-zinc-600 rounded-full p-1" />
+  </div>
+</div>

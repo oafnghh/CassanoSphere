@@ -1,0 +1,26 @@
+<div class="flex items-center justify-between bg-card p-2">
+  <div class="flex items-center space-x-2">
+    <img src="https://openui.fly.dev/openui/24x24.svg?text=F" class="bg-primary text-primary-foreground rounded-full p-1" />
+    <div class="flex items-center bg-muted p-2 rounded-full">
+      <img src="https://openui.fly.dev/openui/16x16.svg?text=🔍" alt="search icon" />
+      <input type="text" placeholder="Tìm kiếm trên Facebook" class="bg-transparent text-muted-foreground ml-2 outline-none" />
+    </div>
+  </div>
+
+  <div class="flex items-center space-x-6">
+    <img src="https://openui.fly.dev/openui/24x24.svg?text=🏠" alt="home icon" class="text-primary" />
+    <img src="https://openui.fly.dev/openui/24x24.svg?text=👥" alt="friends icon" class="text-muted-foreground" />
+    <img src="https://openui.fly.dev/openui/24x24.svg?text=🏪" alt="marketplace icon" class="text-muted-foreground" />
+    <img src="https://openui.fly.dev/openui/24x24.svg?text=🎮" alt="gaming icon" class="text-muted-foreground" />
+  </div>
+
+  <div class="flex items-center space-x-2">
+    <img src="https://openui.fly.dev/openui/24x24.svg?text=🔲" alt="menu icon" class="bg-muted-foreground rounded-full p-1" />
+    <img src="https://openui.fly.dev/openui/24x24.svg?text=💬" alt="messenger icon" class="bg-muted-foreground rounded-full p-1" />
+    <img src="https://openui.fly.dev/openui/24x24.svg?text=🔔" alt="notifications icon" class="bg-muted-foreground rounded-full p-1" />
+    <div class="flex items-center bg-muted rounded-full p-1">
+      <img src="https://openui.fly.dev/openui/24x24.svg?text=👤" alt="profile icon" class="rounded-full" />
+      <img src="https://openui.fly.dev/openui/16x16.svg?text=⬇️" alt="dropdown icon" class="ml-1" />
+    </div>
+  </div>
+</div>

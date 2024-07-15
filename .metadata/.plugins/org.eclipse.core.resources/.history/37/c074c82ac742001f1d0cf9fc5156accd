@@ -1,0 +1,25 @@
+<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<%@ page import="service.ConnectionDB"%>
+<%@ page import="model.*"%>
+<% User auth = (User) request.getSession().getAttribute("auth");
+	if(auth!=null)
+	{
+		request.setAttribute("auth", auth);
+		 System.out.println("Auth object set in request: " + auth.getT_Name());
+	}
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<%@include file="www/home/includes/head.jsp"%>
+</head>
+<body>
+	<%@include file="www/home/includes/navBar.jsp"%>
+	<div class="container" style="display: flex; margin-top: 20px">
+		<%@include file="www/home/includes/rightBar.jsp"%>
+	</div>
+	<%@include file="www/home/includes/footer.jsp"%>
+</body>
+</html>
